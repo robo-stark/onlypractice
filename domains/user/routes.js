@@ -5,7 +5,7 @@ import verifyToken from "../../middleware/auth.js";
 
 
 userRoutes.get("/", async (req, res) => {
-	res.status(statusCode).json({
+	res.status(200).json({
 		"status": "ok",
 		"data": null,
 		"message":"puneet chutiya"
