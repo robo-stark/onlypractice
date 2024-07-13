@@ -4,6 +4,13 @@ import { signupUser , loginUser, fetchUserData, fetchUserList , deleteUser, upda
 import verifyToken from "../../middleware/auth.js";
 
 
+userRoutes.get("/", async (req, res) => {
+	res.status(statusCode).json({
+		"status": "ok",
+		"data": null,
+		"message":"puneet chutiya"
+	});
+})
 
 //post body -> email, password
 userRoutes.post("/login", async (req, res) => {
