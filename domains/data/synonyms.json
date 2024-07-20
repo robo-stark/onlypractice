@@ -1,0 +1,723 @@
+[
+    {
+      "word": "reckon",
+      "meaning": "to think",
+      "example_sentence": "I might reckon doing this",
+      "option_one": {
+        "value": "hope",
+        "meaning": "to wish for something"
+      },
+      "option_two": {
+        "value": "consider",
+        "meaning": "to think about something carefully"
+      },
+      "option_three": {
+        "value": "calculate",
+        "meaning": "to determine by mathematical methods"
+      },
+      "option_four": {
+        "value": "ignore",
+        "meaning": "to refuse to take notice of"
+      },
+      "correct_answer": 2,
+      "difficulty": 2,
+      "id": "w0001"
+    },
+    {
+      "word": "behave",
+      "meaning": "act accordingly",
+      "example_sentence": "He behaved well",
+      "difficulty": 1,
+      "option_one": {
+        "value": "misbehave",
+        "meaning": "to act badly"
+      },
+      "option_two": {
+        "value": "react",
+        "meaning": "to respond to something"
+      },
+      "option_three": {
+        "value": "conduct",
+        "meaning": "to act in a certain way"
+      },
+      "option_four": {
+        "value": "appear",
+        "meaning": "to become visible"
+      },
+      "correct_answer": 3,
+      "id": "w0002"
+    },
+    {
+      "word": "examine",
+      "meaning": "to inspect",
+      "example_sentence": "The doctor will examine you now",
+      "option_one": {
+        "value": "ignore",
+        "meaning": "to disregard"
+      },
+      "option_two": {
+        "value": "observe",
+        "meaning": "to watch carefully"
+      },
+      "option_three": {
+        "value": "destroy",
+        "meaning": "to ruin something"
+      },
+      "option_four": {
+        "value": "fix",
+        "meaning": "to repair"
+      },
+      "correct_answer": 2,
+      "difficulty": 2,
+      "id": "w0003"
+    },
+    {
+      "word": "advise",
+      "meaning": "to give counsel",
+      "example_sentence": "He advised her to take the job",
+      "option_one": {
+        "value": "suggest",
+        "meaning": "to put forward for consideration"
+      },
+      "option_two": {
+        "value": "demand",
+        "meaning": "to ask forcefully"
+      },
+      "option_three": {
+        "value": "neglect",
+        "meaning": "to not care for"
+      },
+      "option_four": {
+        "value": "blame",
+        "meaning": "to hold responsible"
+      },
+      "correct_answer": 1,
+      "difficulty": 2,
+      "id": "w0004"
+    },
+    {
+      "word": "compete",
+      "meaning": "to strive against others",
+      "example_sentence": "They will compete in the finals",
+      "option_one": {
+        "value": "collaborate",
+        "meaning": "to work together"
+      },
+      "option_two": {
+        "value": "concede",
+        "meaning": "to admit defeat"
+      },
+      "option_three": {
+        "value": "contest",
+        "meaning": "to engage in a struggle"
+      },
+      "option_four": {
+        "value": "ignore",
+        "meaning": "to pay no attention to"
+      },
+      "correct_answer": 3,
+      "difficulty": 2,
+      "id": "w0005"
+    },
+    {
+      "word": "deter",
+      "meaning": "to discourage",
+      "example_sentence": "The threat of punishment will deter them",
+      "option_one": {
+        "value": "encourage",
+        "meaning": "to give support"
+      },
+      "option_two": {
+        "value": "prevent",
+        "meaning": "to stop from happening"
+      },
+      "option_three": {
+        "value": "allow",
+        "meaning": "to permit"
+      },
+      "option_four": {
+        "value": "ignore",
+        "meaning": "to disregard"
+      },
+      "correct_answer": 2,
+      "difficulty": 3,
+      "id": "w0006"
+    },
+    {
+      "word": "elaborate",
+      "meaning": "to explain in detail",
+      "example_sentence": "Please elaborate on your idea",
+      "option_one": {
+        "value": "simplify",
+        "meaning": "to make simpler"
+      },
+      "option_two": {
+        "value": "clarify",
+        "meaning": "to make clear"
+      },
+      "option_three": {
+        "value": "ignore",
+        "meaning": "to disregard"
+      },
+      "option_four": {
+        "value": "extend",
+        "meaning": "to make longer"
+      },
+      "correct_answer": 2,
+      "difficulty": 2,
+      "id": "w0007"
+    },
+    {
+      "word": "fascinate",
+      "meaning": "to attract and hold the attention",
+      "example_sentence": "Dinosaurs fascinate him",
+      "option_one": {
+        "value": "bore",
+        "meaning": "to cause boredom"
+      },
+      "option_two": {
+        "value": "ignore",
+        "meaning": "to disregard"
+      },
+      "option_three": {
+        "value": "intrigue",
+        "meaning": "to arouse curiosity"
+      },
+      "option_four": {
+        "value": "repel",
+        "meaning": "to drive back"
+      },
+      "correct_answer": 3,
+      "difficulty": 2,
+      "id": "w0008"
+    },
+    {
+      "word": "gather",
+      "meaning": "to collect",
+      "example_sentence": "They gather data for the study",
+      "option_one": {
+        "value": "disperse",
+        "meaning": "to spread out"
+      },
+      "option_two": {
+        "value": "collect",
+        "meaning": "to bring together"
+      },
+      "option_three": {
+        "value": "scatter",
+        "meaning": "to throw in various directions"
+      },
+      "option_four": {
+        "value": "ignore",
+        "meaning": "to disregard"
+      },
+      "correct_answer": 2,
+      "difficulty": 1,
+      "id": "w0009"
+    },
+    {
+      "word": "hesitate",
+      "meaning": "to pause before acting",
+      "example_sentence": "He hesitated before speaking",
+      "option_one": {
+        "value": "proceed",
+        "meaning": "to continue"
+      },
+      "option_two": {
+        "value": "delay",
+        "meaning": "to make someone late"
+      },
+      "option_three": {
+        "value": "stop",
+        "meaning": "to cease movement"
+      },
+      "option_four": {
+        "value": "stumble",
+        "meaning": "to trip or lose balance"
+      },
+      "correct_answer": 4,
+      "difficulty": 2,
+      "id": "w0010"
+    },
+    {
+      "word": "ignite",
+      "meaning": "to set on fire",
+      "example_sentence": "They ignite the fireworks",
+      "option_one": {
+        "value": "extinguish",
+        "meaning": "to put out"
+      },
+      "option_two": {
+        "value": "start",
+        "meaning": "to begin"
+      },
+      "option_three": {
+        "value": "burn",
+        "meaning": "to be on fire"
+      },
+      "option_four": {
+        "value": "cool",
+        "meaning": "to make cold"
+      },
+      "correct_answer": 3,
+      "difficulty": 2,
+      "id": "w0011"
+    },
+    {
+      "word": "jubilant",
+      "meaning": "feeling or expressing great joy",
+      "example_sentence": "They were jubilant after winning",
+      "option_one": {
+        "value": "miserable",
+        "meaning": "feeling very unhappy"
+      },
+      "option_two": {
+        "value": "ecstatic",
+        "meaning": "feeling overwhelming happiness"
+      },
+      "option_three": {
+        "value": "sad",
+        "meaning": "feeling sorrow"
+      },
+      "option_four": {
+        "value": "calm",
+        "meaning": "peaceful"
+      },
+      "correct_answer": 2,
+      "difficulty": 2,
+      "id": "w00112"
+    },
+    {
+      "word": "kneel",
+      "meaning": "to go down on one's knee",
+      "example_sentence": "They kneel in prayer",
+      "option_one": {
+        "value": "stand",
+        "meaning": "to be upright"
+      },
+      "option_two": {
+        "value": "sit",
+        "meaning": "to rest on the buttocks"
+      },
+      "option_three": {
+        "value": "bend",
+        "meaning": "to make something curved"
+      },
+      "option_four": {
+        "value": "crouch",
+        "meaning": "to bend low with limbs close to the body"
+      },
+      "correct_answer": 4,
+      "difficulty": 2,
+      "id": "w0013"
+    },
+    {
+      "word": "lament",
+      "meaning": "to express sorrow",
+      "example_sentence": "They lament the loss",
+      "option_one": {
+        "value": "celebrate",
+        "meaning": "to honor an occasion"
+      },
+      "option_two": {
+        "value": "mourn",
+        "meaning": "to feel or show deep sorrow"
+      },
+      "option_three": {
+        "value": "ignore",
+        "meaning": "to disregard"
+      },
+      "option_four": {
+        "value": "praise",
+        "meaning": "to express admiration"
+      },
+      "correct_answer": 2,
+      "difficulty": 3,
+      "id": "w0014"
+    },
+    {
+      "word": "marvel",
+      "meaning": "to be filled with wonder",
+      "example_sentence": "They marveled at the view",
+      "option_one": {
+        "value": "ignore",
+        "meaning": "to disregard"
+      },
+      "option_two": {
+        "value": "dismiss",
+        "meaning": "to send away"
+      },
+      "option_three": {
+        "value": "wonder",
+        "meaning": "to feel amazement"
+      },
+      "option_four": {
+        "value": "forget",
+        "meaning": "to fail to remember"
+      },
+      "correct_answer": 3,
+      "difficulty": 2,
+      "id": "w0015"
+    },
+    {
+      "word": "navigate",
+      "meaning": "to find the way",
+      "example_sentence": "They navigate the ship",
+      "option_one": {
+        "value": "mislead",
+        "meaning": "to guide wrongly"
+      },
+      "option_two": {
+        "value": "direct",
+        "meaning": "to manage or control"
+      },
+      "option_three": {
+        "value": "wander",
+        "meaning": "to move without a fixed course"
+      },
+      "option_four": {
+        "value": "search",
+        "meaning": "to look for something"
+      },
+      "correct_answer": 2,
+      "difficulty": 2,
+      "id": "w0016"
+    },
+    {
+      "word": "observe",
+      "meaning": "to watch carefully",
+      "example_sentence": "They observe the stars",
+      "option_one": {
+        "value": "ignore",
+        "meaning": "to disregard"
+      },
+      "option_two": {
+        "value": "study",
+        "meaning": "to examine in detail"
+      },
+      "option_three": {
+        "value": "neglect",
+        "meaning": "to fail to care for"
+      },
+      "option_four": {
+        "value": "destroy",
+        "meaning": "to ruin completely"
+      },
+      "correct_answer": 2,
+      "difficulty": 1,
+      "id": "w0017"
+    },
+    {
+      "word": "ponder",
+      "meaning": "to think deeply",
+      "example_sentence": "They pondered the question",
+      "option_one": {
+        "value": "ignore",
+        "meaning": "to disregard"
+      },
+      "option_two": {
+        "value": "consider",
+        "meaning": "to think carefully about"
+      },
+      "option_three": {
+        "value": "dismiss",
+        "meaning": "to send away"
+      },
+      "option_four": {
+        "value": "forget",
+        "meaning": "to fail to remember"
+      },
+      "correct_answer": 2,
+      "difficulty": 2,
+      "id": "w0018"
+    },
+    {
+      "word": "quarrel",
+      "meaning": "to argue",
+      "example_sentence": "They often quarrel over money",
+      "option_one": {
+        "value": "agree",
+        "meaning": "to have the same opinion"
+      },
+      "option_two": {
+        "value": "fight",
+        "meaning": "to engage in physical struggle"
+      },
+      "option_three": {
+        "value": "discuss",
+        "meaning": "to talk about"
+      },
+      "option_four": {
+        "value": "ignore",
+        "meaning": "to disregard"
+      },
+      "correct_answer": 2,
+      "difficulty": 2,
+      "id": "w0019"
+    },
+    {
+      "word": "recline",
+      "meaning": "to lean back",
+      "example_sentence": "They recline on the sofa",
+      "option_one": {
+        "value": "stand",
+        "meaning": "to be upright"
+      },
+      "option_two": {
+        "value": "sit",
+        "meaning": "to rest on the buttocks"
+      },
+      "option_three": {
+        "value": "lie",
+        "meaning": "to be in a horizontal position"
+      },
+      "option_four": {
+        "value": "run",
+        "meaning": "to move swiftly on foot"
+      },
+      "correct_answer": 3,
+      "difficulty": 2,
+      "id": "w0020"
+    },
+    {
+      "word": "stumble",
+      "meaning": "to trip or lose balance",
+      "example_sentence": "He stumbled over the rock",
+      "option_one": {
+        "value": "fall",
+        "meaning": "to drop downward"
+      },
+      "option_two": {
+        "value": "trip",
+        "meaning": "to catch one's foot and almost fall"
+      },
+      "option_three": {
+        "value": "stand",
+        "meaning": "to be upright"
+      },
+      "option_four": {
+        "value": "walk",
+        "meaning": "to move on foot"
+      },
+      "correct_answer": 2,
+      "difficulty": 2,
+      "id": "w0021"
+    },
+    {
+      "word": "transcend",
+      "meaning": "to go beyond the limits",
+      "example_sentence": "Their performance transcended expectations",
+      "option_one": {
+        "value": "surpass",
+        "meaning": "to exceed"
+      },
+      "option_two": {
+        "value": "fall short",
+        "meaning": "to fail to meet expectations"
+      },
+      "option_three": {
+        "value": "ignore",
+        "meaning": "to disregard"
+      },
+      "option_four": {
+        "value": "limit",
+        "meaning": "to set boundaries"
+      },
+      "correct_answer": 1,
+      "difficulty": 3,
+      "id": "w0022"
+    },
+    {
+      "word": "undermine",
+      "meaning": "to weaken",
+      "example_sentence": "Their actions undermined the team's morale",
+      "option_one": {
+        "value": "strengthen",
+        "meaning": "to make stronger"
+      },
+      "option_two": {
+        "value": "weaken",
+        "meaning": "to make weaker"
+      },
+      "option_three": {
+        "value": "support",
+        "meaning": "to give assistance to"
+      },
+      "option_four": {
+        "value": "ignore",
+        "meaning": "to disregard"
+      },
+      "correct_answer": 2,
+      "difficulty": 2,
+      "id": "w0023"
+    },
+    {
+      "word": "validate",
+      "meaning": "to confirm",
+      "example_sentence": "They validated the results",
+      "option_one": {
+        "value": "invalidate",
+        "meaning": "to make invalid"
+      },
+      "option_two": {
+        "value": "confirm",
+        "meaning": "to establish the truth"
+      },
+      "option_three": {
+        "value": "deny",
+        "meaning": "to refuse to admit"
+      },
+      "option_four": {
+        "value": "ignore",
+        "meaning": "to disregard"
+      },
+      "correct_answer": 2,
+      "difficulty": 2,
+      "id": "w0024"
+    },
+    {
+      "word": "waver",
+      "meaning": "to be undecided",
+      "example_sentence": "He wavered between the two options",
+      "option_one": {
+        "value": "decide",
+        "meaning": "to make a choice"
+      },
+      "option_two": {
+        "value": "hesitate",
+        "meaning": "to pause before acting"
+      },
+      "option_three": {
+        "value": "ignore",
+        "meaning": "to disregard"
+      },
+      "option_four": {
+        "value": "commit",
+        "meaning": "to pledge or bind to a certain course"
+      },
+      "correct_answer": 2,
+      "difficulty": 2,
+      "id": "w0025"
+    },
+    {
+      "word": "yield",
+      "meaning": "to produce or provide",
+      "example_sentence": "The farm yields a good crop",
+      "option_one": {
+        "value": "produce",
+        "meaning": "to make or create"
+      },
+      "option_two": {
+        "value": "destroy",
+        "meaning": "to ruin"
+      },
+      "option_three": {
+        "value": "withhold",
+        "meaning": "to hold back"
+      },
+      "option_four": {
+        "value": "ignore",
+        "meaning": "to disregard"
+      },
+      "correct_answer": 1,
+      "difficulty": 2,
+      "id": "w0026"
+    },
+    {
+      "word": "zeal",
+      "meaning": "great energy or enthusiasm",
+      "example_sentence": "She approached the task with zeal",
+      "option_one": {
+        "value": "apathy",
+        "meaning": "lack of interest"
+      },
+      "option_two": {
+        "value": "enthusiasm",
+        "meaning": "intense and eager enjoyment"
+      },
+      "option_three": {
+        "value": "ignorance",
+        "meaning": "lack of knowledge"
+      },
+      "option_four": {
+        "value": "boredom",
+        "meaning": "state of being weary and restless"
+      },
+      "correct_answer": 2,
+      "difficulty": 2,
+      "id": "w0027"
+    },
+    {
+      "word": "abridge",
+      "meaning": "to shorten",
+      "example_sentence": "The book was abridged for children",
+      "option_one": {
+        "value": "lengthen",
+        "meaning": "to make longer"
+      },
+      "option_two": {
+        "value": "shorten",
+        "meaning": "to make shorter"
+      },
+      "option_three": {
+        "value": "ignore",
+        "meaning": "to disregard"
+      },
+      "option_four": {
+        "value": "expand",
+        "meaning": "to increase in size"
+      },
+      "correct_answer": 2,
+      "difficulty": 2,
+      "id": "w0028"
+    },
+    {
+      "word": "belittle",
+      "meaning": "to make something seem less important",
+      "example_sentence": "He belittled her efforts",
+      "option_one": {
+        "value": "praise",
+        "meaning": "to express admiration"
+      },
+      "option_two": {
+        "value": "dismiss",
+        "meaning": "to send away"
+      },
+      "option_three": {
+        "value": "criticize",
+        "meaning": "to express disapproval"
+      },
+      "option_four": {
+        "value": "magnify",
+        "meaning": "to make something appear larger"
+      },
+      "correct_answer": 3,
+      "difficulty": 2,
+      "id": "w0029"
+    },
+    {
+      "word": "chide",
+      "meaning": "to scold",
+      "example_sentence": "She chided him for being late",
+      "option_one": {
+        "value": "praise",
+        "meaning": "to express admiration"
+      },
+      "option_two": {
+        "value": "scold",
+        "meaning": "to rebuke"
+      },
+      "option_three": {
+        "value": "ignore",
+        "meaning": "to disregard"
+      },
+      "option_four": {
+        "value": "encourage",
+        "meaning": "to give support"
+      },
+      "correct_answer": 2,
+      "difficulty": 2,
+      "id": "w0030"
+    }
+  ]
+  

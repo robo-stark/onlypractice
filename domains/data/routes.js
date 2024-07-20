@@ -1,28 +1,28 @@
 import express from "express";
 
 const dataRoutes = express.Router();
-import { readFileSync } from 'fs';
+import fs from 'fs';
+import path from 'path';
+const __dirname = path.resolve();
+
 import verifyToken from "../../middleware/auth.js";
 
-// Load the words data
-const wordsData = JSON.parse(readFileSync('words.json', 'utf-8'));
 
-dataRoutes.get('/thirty', async(req, res) => {
+dataRoutes.get('/synonyms', async(req, res) => {
 
-	const randomWords = [];
-    const wordCount = wordsData.length;
-    
-    while (randomWords.length < 30) {
-        const randomIndex = Math.floor(Math.random() * wordCount);
-        const randomWord = wordsData[randomIndex];
-        
-        // Ensure no duplicate words
-        if (!randomWords.includes(randomWord)) {
-            randomWords.push(randomWord);
-        }
+    try {
+        // Read the JSON file
+        const filePath = path.join(__dirname, 'domains', 'data', 'synonyms.json');
+        const data = fs.readFileSync(filePath, 'utf8');
+        // Parse the JSON data
+        const synonyms = JSON.parse(data);
+        // Send the JSON data as a response
+        res.json(synonyms);
+    } catch (error) {
+        console.error('Error reading synonyms.json:', error);
+        res.status(500).send('Internal Server Error');
     }
-
-	res.json(randomWords);
+	
 })
 
 
