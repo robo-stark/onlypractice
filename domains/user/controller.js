@@ -100,36 +100,48 @@ const loginUser = async (data) => {
 
 };
 
-//3. Forgot Password
-const forgotPassword = async(data) => {
 
-	const { email } = req.body;
-  
-	const fetchedUser = await User.findOne({ email });
-	if (!fetchedUser) {
-		throw { message: `user with email ${email} doesn't exists`, code: 404 };
-	}
+//3. Update password
+const changePassword = async ({ email, newPassword }) => {
+    try {
+        // Check if email and new password are provided
+        if (!email) {
+            throw { message: "Email provided is empty!!", code: 400 };
+        }
+
+        if (!newPassword) {
+            throw { message: "New password provided is empty!!", code: 400 };
+        }
+
+		const fetchedUser = await User.findOne({ email });
+		if (!fetchedUser) {
+			throw { message: `user with email ${email} doesn't exists`, code: 404 };
+		}
 	
-	// Create a reset token
-	const token = jwt.sign({ id: user.id, email: user.email }, process.env.JWT_SECRET, { expiresIn: '1h' });
-  
-	// Send reset email
-	const mailOptions = {
-	  from: process.env.EMAIL,
-	  to: user.email,
-	  subject: 'Password Reset',
-	  text: `You requested a password reset. Click the following link to reset your password: http://yourdomain.com/reset-password/${token}`,
-	};
-  
-	transporter.sendMail(mailOptions, (error, info) => {
-	  if (error) {
-		return res.status(500).send('Error sending email');
-	  }
-	  res.send('Password reset email sent');
-	});
 
-}
+        if (newPassword.length < 6) {
+            throw { message: "Password should be at least 6 characters long", code: 400 };
+        }
 
+        const hashedPassword = await hashData(newPassword);
+
+        const updatedUser = await User.findOneAndUpdate(
+            { email },
+            { password: hashedPassword },
+            { new: true }
+        );
+
+        return {
+            status: "success",
+            data: null,
+            message: "Password changed successfully"
+        };
+
+    } catch (err) {
+        console.log(`Error while changing password for user with email: ${email}\n${err.message}`);
+        throw { message: err.message, code: err.code || 500 };
+    }
+};
 
 
 
@@ -376,8 +388,8 @@ const deleteUser = async (data) => {
 }
 
 
-export { signupUser , loginUser, fetchUserList ,
-	deleteUser, updateUser, fetchUserData
+export { signupUser , loginUser, changePassword, fetchUserList ,
+	deleteUser, updateUser, fetchUserData, 
 };
 
 

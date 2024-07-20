@@ -3,16 +3,17 @@ import nodemailer from 'nodemailer';
 const  { AUTH_EMAIL, AUTH_PASS } = process.env;
 
 const transporter = nodemailer.createTransport({
-
-    //host: "smtp.rediffmailpro.com",
-    host: "mail.volga.asia",
-    port : 465,
-   
+    host: "smtp-mail.outlook.com",
+    //host: "smtp.sendgrid.net",
+    //host: "smtp-relay.sendinblue.com",
+    port : 587,
     auth: {
         user: AUTH_EMAIL,
         pass: AUTH_PASS
     }
+
 });
+
 
 
 transporter.verify((error, success) => {

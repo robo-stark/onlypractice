@@ -3,12 +3,12 @@ const userRoutes = express.Router();
 import { signupUser , loginUser, fetchUserData, fetchUserList , deleteUser, updateUser} from './controller.js';
 import verifyToken from "../../middleware/auth.js";
 
-
+//default route to keep server running
 userRoutes.get("/", async (req, res) => {
 	res.status(200).json({
-		"status": "ok",
+		"status": "success",
 		"data": null,
-		"message":"puneet chutiya"
+		"message":"server healthy"
 	});
 })
 
@@ -46,22 +46,7 @@ userRoutes.post("/signup", async (req, res) => {
 	}
 });
 
-//post body -> email
-userRoutes.post('/forgot-password', async (req, res) => {
-	try {
-
-		//const result = await signupUser(req.body);
-		//res.status(200).json(newUser);
-
-	}catch (err) {
-		const statusCode = err.code || 500;
-        res.status(statusCode).json({
-            "status": "failed",
-            "data": null,
-            "message": err.message
-        });
-	}
-});
+//--------------------------Below Non working--------------------------------------
 
 //post body -> userId, token
 userRoutes.post('/', verifyToken, async(req, res) => {
